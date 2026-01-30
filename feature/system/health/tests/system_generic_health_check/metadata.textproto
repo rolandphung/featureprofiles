@@ -35,8 +35,8 @@ platform_exceptions: {
     vendor: ARISTA
   }
   deviations: {
-    interface_ethernet_inblock_errors_unsupported: true
     interface_counters_in_unknown_protos_unsupported: true
+    interface_ethernet_inblock_errors_unsupported: true
     no_queue_drop_unsupported: true
   }
 }
